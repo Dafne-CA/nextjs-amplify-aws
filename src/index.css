@@ -1,12 +1,14 @@
 body {
   margin: 0;
-  background: linear-gradient(180deg, rgb(117, 81, 194), rgb(255, 255, 255));
+  background: linear-gradient(180deg, rgb(196, 17, 220), rgb(255, 255, 255));
   display: flex;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgb(5, 4, 2);
   height: 100vh;
   width: 100vw;
   justify-content: center;
   align-items: center;
+  
 }
 
 main {
@@ -62,4 +64,7 @@ li:hover {
 a {
   font-weight: 800;
   text-decoration: none;
+}
+.amplify-breadcrumbs {
+  background-color: pink;
 }
